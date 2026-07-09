@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+h1 {
+    color: #ffffff;
+    background-color: #ff4949;
+}
+
+footer {
+    background-color: #b6b6b6;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subhead {
+    background-color: #808000;
+}
+
+article{
+    clear: both;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+article h1{
+    background-color: rgb(255, 148, 205);
+}
+
+article h2{
+    line-height: 1;
+}
+.navy{
+    color: black;
+}
+
+.red{
+    color: red;
+}
+
+p{
+  font-size: 90%;
+  line-height: 1.8;
+}
+
+h1{
+    font-size: 180%;
+    line-height: 1.8;
+}
+
+body{
+    font-family: "メイリオ";
+}
+
+footer{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0%;
+    font-size: 90%;
+}
+
+ul time{
+    background-color: #999;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.food{
+    border-bottom: 1px dashed #000;
+}
+
+nav ul{
+    font-weight: bold;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 1px solid #ffffff;
+}
+
+nav li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 12px;
+    border-right: 1px solid #ffffff;
+}
+
+.header-in{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-h1{
+    background: linear-gradient(to left,#ffffff,#ff4949);
+    padding-top: 5px;
+    padding-left: 10px;
+    border-left: 15px solid #fb79af;
+}
+
+.point-list{
+    list-style-image: url(../image/タイトルなし.gif);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.point-img{
+    box-shadow: 0px 0px 10px 3px #aaaaaa;
+}
+
+ol li{
+    display: inline;
+    margin-right: 5px;
+    font-size: 80%;
+}
+
+ol{
+    padding-left: 0;
+}
+
+.make{
+    font-weight: bold;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #003cff;
+}
+
+.okashi{
+    border-bottom: 1px dashed #000;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+nav ul a:link{
+    color: #fc0;
+}
+
+nav ul a:visited{
+    color: #ff0000;
+}
+
+nav ul a:active{
+    color: #000;
+}
+
+/*959px以下の場合*/
+@media(max-width:959px){
+header img{
+    float: none;
+}
+nav ul{
+    text-align: left;
+    padding: 0;
+    margin-left: 10px;
+}
+}
+
+article img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*600px以下の場合*/
+@media(max-width:600px){
+    nav li{
+        font-size: 75%;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    footer{
+        font-size: 75%;
+    }
+
+    article img{
+        max-width: 100%;
+        height: auto;
+    }
+}

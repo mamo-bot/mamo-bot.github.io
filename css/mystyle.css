@@ -23,6 +23,14 @@ article{
     margin-right: auto;
 }
 
+.karaage{
+    position: relative;
+    display: inline-block;
+}
+
+.text{
+    position: absolute;
+}
 
 article h1{
     background-color: rgb(255, 148, 205);
@@ -150,6 +158,31 @@ nav ul a:visited{
 
 nav ul a:active{
     color: #000;
+}
+
+table{
+	border: 1px solid #333333;
+	font-size: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+
+th{
+	background-color: #ccccff;
+	border: 1px solid #333333;
+	padding: 10px;
+	width: 20%;
+}
+
+td{
+	border: 1px solid #333333;
+	padding: 10px;
+}
+
+caption {
+	caption-side: top;
 }
 
 /*959px以下の場合*/

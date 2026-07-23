@@ -17,23 +17,26 @@ footer {
 }
 
 article{
+    position: relative;
     clear: both;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.karaage{
-    position: relative;
-    display: inline-block;
-}
 
-.text{
+
+.text {
     position: absolute;
+    top: 20px;
+	left: 30px;
+	color: #ffffff;
+	text-shadow: 0px 5px 10px #000;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 article h1{
-    background-color: rgb(255, 148, 205);
+    background-color: transparent;
 }
 
 article h2{
@@ -184,6 +187,7 @@ td{
 caption {
 	caption-side: top;
 }
+
 
 /*959px以下の場合*/
 @media(max-width:959px){
